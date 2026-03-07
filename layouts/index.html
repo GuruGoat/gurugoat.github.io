@@ -1,35 +1,44 @@
 {{ define "main" }}
-<div class="posts-list">
-  {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-  {{ range $pages }}
-    <article class="post-entry">
+  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+  {{ range $paginator.Pages }}
+    <div class="post {{ with .Site.Params.doNotLoadAnimations }}.{{ else }}animated fadeInDown{{ end }}">
       {{ if .Params.image }}
-        <a href="{{ .Permalink }}">
-          <img src="{{ .Params.image }}" alt="{{ .Title }}" style="width: 100%; max-width: 400px; height: auto; margin-bottom: 1rem;">
-        </a>
+        <div class="post__thumbnail-wrapper">
+          <a href="{{ .RelPermalink }}">
+            <img class="post__thumbnail" src="{{ .Params.image | relURL }}" alt="Thumbnail image" loading="lazy" />
+          </a>
+        </div>
       {{ end }}
-      
-      <h2 class="post-title">
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-      </h2>
-      
-      {{ if .Description }}
-        <p class="post-description">{{ .Description }}</p>
-      {{ else if .Summary }}
-        <p class="post-description">{{ .Summary }}</p>
-      {{ end }}
-      
-      <div class="post-meta">
-        <time>{{ .Date.Format "02/01/2006" }}</time>
-        {{ if .Params.tags }}
-          <span class="post-tags">
-            {{ range .Params.tags }}
-              <span class="tag">{{ . }}</span>
-            {{ end }}
-          </span>
+      <div class="post__content">
+        {{ if (eq .Site.Params.disableTitleCapitalization true) }}
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{ else }}
+          <h3><a href="{{ .RelPermalink }}">{{ upper .Title }}</a></h3>
+        {{ end }}
+        {{ if .Description }}
+          <p>{{ .Description }}</p>
+        {{ else if .Summary }}
+          <p>{{ .Summary }}</p>
+        {{ end }}
+        {{ if .Truncated }}
+          <a href="{{ .RelPermalink }}">{{ i18n "read_more" }}</a>
         {{ end }}
       </div>
-    </article>
+      <div class="post__footer">
+        <em class="fas fa-calendar-day"></em>
+        <span class="post__footer-date">
+          {{ .Date.Format "02/01/2006" }}
+        </span>
+        {{ with .Page.Params.Categories }}
+          {{ partial "taxonomy/categories.html" . }}
+        {{ end }}
+        {{ with .Page.Params.Tags }}
+          {{ partial "taxonomy/tags.html" . }}
+        {{ end }}
+      </div>
+    </div>
   {{ end }}
-</div>
+  <div class="pagination">
+    {{ partial "pagination.html" . }}
+  </div>
 {{ end }}

@@ -3,8 +3,6 @@ title: "Qualifications"
 date: 2026-03-06
 ---
 
-# Qualifications & Certifications
-
 ## Education
 
 **Bachelor of Mechanical Engineering**  
