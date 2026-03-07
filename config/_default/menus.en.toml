@@ -1,0 +1,41 @@
+[[main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+[[main]]
+  name = "Mechanical"
+  weight = 200
+  url = "/portfolio/mechanical/"
+
+[[main]]
+  name = "Software"
+  weight = 300
+  url = "/portfolio/software/"
+
+[[main]]
+  name = "Hobbies"
+  weight = 400
+  url = "/portfolio/hobbies/"
+
+[[main]]
+  name = "Qualifications"
+  weight = 500
+  url = "/quals/"
+
+[[main]]
+  name = "About"
+  weight = 600
+  url = "/about/"
+
+[[main]]
+  name = "Contact"
+  weight = 700
+  url = "/contact/"
+
+#  [[footer]]
+#  name = "imprint"
+#  weight = 1
+#  identifier = "imprint"
+#  url = "/imprint/"
