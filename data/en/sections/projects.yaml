@@ -1,0 +1,54 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the section even though it is enabled
+  # hideFromNavbar: true
+  # filter buttons
+  filter: true
+
+# filter buttons
+buttons:
+  - name: All
+    filter: "all"
+  - name: CAD Design
+    filter: "cad"
+  - name: Robotics
+    filter: "robotics"
+  - name: Manufacturing
+    filter: "manufacturing"
+  - name: Automation
+    filter: "automation"
+
+# your projects
+projects:
+  - name: Automated Gearbox Design
+    logo: /images/sections/projects/gearbox-logo.png
+    role: Designer & Engineer
+    timeline: "Jan 2023 - Jun 2023"
+    # If your project is not hosted somewhere, you can provide the path of the
+    # detailed markdown file
+    url: "/posts/projects/automated-gearbox"
+    summary: Designed and prototyped a custom high-torque gearbox for robotic arm application. Achieved 30% size reduction vs commercial alternatives.
+    tags: ["cad", "robotics", "manufacturing"]
+
+  - name: Hydraulic Press Rebuild
+    logo: /images/sections/projects/press-logo.png
+    role: Lead Engineer
+    timeline: "Sep 2022 - Dec 2022"
+    url: "/posts/projects/hydraulic-press"
+    summary: Complete teardown and modernization of 50-ton hydraulic press including new control system and safety features.
+    tags: ["manufacturing", "automation"]
+
+  - name: Custom Drone Frame
+    logo: /images/sections/projects/drone-logo.png
+    role: Designer
+    timeline: "Mar 2023 - Apr 2023"
+    url: "/posts/projects/drone-frame"
+    summary: Designed lightweight carbon fiber drone frame optimized for FPV racing. Weight reduced by 40% while maintaining strength.
+    tags: ["cad", "manufacturing"]
+
+# Add more projects as needed

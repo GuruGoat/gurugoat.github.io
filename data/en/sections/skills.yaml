@@ -1,0 +1,42 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the section even though it is enabled
+  # hideFromNavbar: true
+
+# Your Skills
+# Give a summary of you each skill in the summary section.
+skills:
+  - name: Solidworks
+    #logo: /images/sections/skills/sw_logo.png
+    summary: "Expert in SolidWorks for complex assemblies, surfacing, and sheet metal design. Proficient in AutoCAD, Fusion 360, and Inventor."
+    url: "#"
+
+  - name: Analysis & Simulation
+    #logo: /images/sections/skills/ansys.png
+    summary: "Experienced with FEA structural analysis, thermal simulations, and CFD using ANSYS and SolidWorks Simulation."
+    url: "#"
+
+  - name: Manufacturing
+    #logo: /images/sections/skills/manufacturing.png
+    summary: "Hands-on experience with CNC machining, 3D printing (FDM/SLA), sheet metal fabrication, and DFM principles."
+    url: "#"
+
+  - name: Programming & Automation
+    #logo: /images/sections/skills/python.png
+    summary: "Python for design automation and data analysis. MATLAB for mathematical modeling. Git for version control."
+    url: "#"
+
+  - name: Prototyping
+    #logo: /images/sections/skills/prototyping.png
+    summary: "Rapid prototyping from concept to functional prototype. Experience with various materials and fabrication methods."
+    url: "#"
+
+  - name: Technical Documentation
+    #logo: /images/sections/skills/documentation.png
+    summary: "Creating detailed technical drawings, assembly instructions, BOMs, and engineering reports."
+    url: "#"

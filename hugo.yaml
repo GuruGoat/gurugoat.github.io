@@ -1,0 +1,131 @@
+# ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>) or images won’t display correctly
+baseURL: https://cpearce.cv/
+
+languageCode: en-us
+title: "Caleb Pearce - Mechanical Engineer"
+theme: "toha"
+
+# Manage languages
+# For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+languages:
+  en:
+    languageName: English
+    weight: 1
+
+# Enable global emoji support
+enableEmoji: true
+
+# Site parameters
+params:
+  # GitHub repo for your site (used for "Edit on GitHub" links)
+  gitRepo: https://github.com/gurugoat/gurugoat.github.io
+
+  # Enable Git info to track last modification time
+  enableGitInfo: true
+
+  # Background image/video for hero section
+  background: "images/background.jpg"
+
+  # Your information
+  author:
+    name: "Caleb Pearce"
+    nickname: "Caleb"
+    image: "images/profile.jpg"
+    greeting: "Hi, I'm"
+    # Short tagline
+    summary: "Mechanical Engineer"
+    # Longer description (optional)
+    # description: "I design innovative mechanical solutions"
+
+  # Features to enable
+  features:
+    # Enable table of contents in post pages
+    toc:
+      enable: true
+
+    # Enable dark mode toggle
+    darkMode:
+      enable: true
+      default: dark
+
+  # Footer configuration
+  footer:
+    enable: true
+    # You can give copyright information here
+    copyright: "© 2026 Caleb Pearce"
+
+    # Social links in footer
+    socialLinks:
+      - name: LinkedIn
+        icon: fab fa-linkedin
+        url: https://linkedin.com/in/yourprofile
+
+      - name: Email
+        icon: fas fa-envelope
+        url: mailto:your.email@example.com
+
+  # Enable sections (these appear on homepage)
+  # We're disabling resume-focused sections
+  enableSections:
+    - name: about
+      enable: true
+      weight: 1
+
+    - name: skills
+      enable: true
+      weight: 2
+
+    - name: projects
+      enable: true
+      weight: 3
+
+    - name: achievements
+      enable: true
+      weight: 4
+
+    # DISABLED - Resume timeline sections
+    # - name: experiences
+    #   enable: false
+    # - name: education
+    #   enable: false
+
+    - name: recent-posts
+      enable: true
+      weight: 5
+
+# Build configuration
+build:
+  writeStats: true
+
+# Menu
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+
+    - name: Projects
+      url: /#projects
+      weight: 2
+
+    - name: Skills
+      url: /#skills
+      weight: 3
+
+    - name: About
+      url: /#about
+      weight: 4
+
+# Markup configuration
+markup:
+  goldmark:
+    renderer:
+      # Allow HTML in markdown (for video embeds)
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+# Analytics (optional - uncomment when you have GA ID)
+# googleAnalytics: G-XXXXXXXXXX

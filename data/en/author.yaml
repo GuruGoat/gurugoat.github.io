@@ -1,0 +1,20 @@
+# some information about you
+name: "Caleb Pearce"
+nickname: "Caleb"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "G'day! I'm"
+image: "images/author/john.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "johndoe@example.com"
+  phone: "+0123456789"
+  github: johndoe
+  linkedin: johndoe
+  researchgate: john-doe
+
+# some summary about what you do
+summary:
+  - I am an Engineer
+  - I am a Firefighter
+  - I am a Pilot
+  - I enjoy coding
