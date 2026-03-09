@@ -10,6 +10,9 @@
             <img class="post__thumbnail" src="{{ .Params.image | relURL }}" alt="Thumbnail image" loading="lazy" />
           </a>
         </div>
+        {{ if .Params.imageCaption }}
+          <p style="font-size: 0.85rem; font-style: italic; color: #666; margin-top: 0.5rem;">{{ .Params.imageCaption }}</p>
+        {{ end }}
       {{ end }}
       <div class="post__content">
         {{ if (eq .Site.Params.disableTitleCapitalization true) }}
