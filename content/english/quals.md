@@ -1,5 +1,5 @@
 ---
-title: "Qualifications"
+title: "Skills & Qualifications"
 date: 2026-03-06
 ---
 
@@ -10,14 +10,24 @@ date: 2026-03-06
 Graduated: 2017
 
 **Leadership Beyond the Theory**  
-*9 week leadership program, focused on practical excercises and actionalble learnings*  
-[LBT](https://go.leadershipbeyondthetheory.com/)  
+*9 week leadership program, focused on practical exercises and actionable learnings - [LBT](https://go.leadershipbeyondthetheory.com/)*  
 Completed: 2025
+
+<br>
 
 ## Technical Skills
 
 ### CAD
 - **SolidWorks (Advanced)**  
-  *_Used near-daily for 8 years_*
+  *Used near-daily for 8 years*
 - **AutoCAD (Intermediate)**  
-  *_Proficient in 2D Autocad_*
+  *Proficient in 2D Autocad*
+
+### Office
+- **Excel (Advanced)**
+- **Word, Powerpoint, Outlook**
+
+### Industry 
+- **Construction Induction (White Card)**
+- **Forklift**
+- **Heavy Combination (Truck)**

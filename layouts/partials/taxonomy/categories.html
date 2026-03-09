@@ -1,0 +1,8 @@
+{{- $linkClass := "category" -}}
+<span>
+  {{- range $index, $el := . -}}
+    {{- $categoryLower := lower . -}}
+    {{- $link := printf "/portfolio/%s/" $categoryLower -}}
+    <a class="{{ $linkClass }}" href="{{ $link }}">{{ . }}</a>
+  {{- end -}}
+</span>

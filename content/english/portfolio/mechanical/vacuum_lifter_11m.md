@@ -3,8 +3,8 @@ title: "Vacuum Lifter Design"
 date: 2026-03-07
 weight: 110
 description: "Custom vacuum lifter for 11m aluminium plates"
-categories: ["mechanical"]
-tags: ["Lifting", "Pneumatics", "Industrial"]
+categories: ["Mechanical"]
+tags: ["lifting", "pneumatics", "industrial"]
 image: "https://filedn.eu/l5EUHcF0zrYfti8LCFKL3Fk/cpearce-cv/portfolio/vacuum-lifter-extended1.jpg"
 ---
 

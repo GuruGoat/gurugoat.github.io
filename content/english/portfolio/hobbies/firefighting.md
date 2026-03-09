@@ -3,8 +3,8 @@ title: "Firefighting"
 date: 2026-03-09
 weight: 310
 description: "Volunteer Firefighting"
-categories: ["hobbies"]
-tags: ["Firefighting", "Volunteering"]
+categories: ["Hobbies"]
+tags: ["firefighting", "volunteering"]
 image: "https://filedn.eu/l5EUHcF0zrYfti8LCFKL3Fk/cpearce-cv/portfolio/scania-medium-pumper.jpg"
 ---
 
