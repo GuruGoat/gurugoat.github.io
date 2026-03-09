@@ -29,10 +29,10 @@
   weight = 600
   url = "/about/"
 
-[[main]]
-  name = "Contact"
-  weight = 700
-  url = "/contact/"
+#[[main]]
+#  name = "Contact"
+#  weight = 700
+#  url = "/contact/"
 
 #  [[footer]]
 #  name = "imprint"
