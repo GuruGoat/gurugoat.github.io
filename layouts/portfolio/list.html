@@ -1,4 +1,4 @@
-{{ define "main" }}
+0;23;44M{{ define "main" }}
   <div class="post {{ with .Site.Params.doNotLoadAnimations }}.{{ else }}animated fadeInDown{{ end }}">
     <div class="post__content">
       <h1>{{ .Title }}</h1>
@@ -27,12 +27,12 @@
         <a href="{{ .RelPermalink }}">Read more →</a>
       </div>
       <div class="post__footer">
-<!--
+        {{/* Commented out date display
         <em class="fas fa-calendar-day"></em>
         <span class="post__footer-date">
           {{ .Date.Format "02/01/2006" }}
         </span>
--->
+        */}}
         {{ with .Page.Params.Categories }}
           {{ partial "taxonomy/categories.html" . }}
         {{ end }}
