@@ -24,10 +24,10 @@
   weight = 500
   url = "/quals/"
 
-[[main]]
-  name = "About"
-  weight = 600
-  url = "/about/"
+#[[main]]
+#  name = "About"
+#  weight = 600
+#  url = "/about/"
 
 #[[main]]
 #  name = "Contact"

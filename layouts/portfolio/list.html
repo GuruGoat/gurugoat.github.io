@@ -27,10 +27,12 @@
         <a href="{{ .RelPermalink }}">Read more →</a>
       </div>
       <div class="post__footer">
+<!--
         <em class="fas fa-calendar-day"></em>
         <span class="post__footer-date">
           {{ .Date.Format "02/01/2006" }}
         </span>
+-->
         {{ with .Page.Params.Categories }}
           {{ partial "taxonomy/categories.html" . }}
         {{ end }}
