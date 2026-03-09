@@ -1,6 +1,5 @@
 ---
 title: "Mechanical Engineering Projects"
-weight: 1
 ---
 
 <!-- Page description -->
