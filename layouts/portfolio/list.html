@@ -1,12 +1,12 @@
-0;23;44M{{ define "main" }}
+{{ define "main" }}
   <div class="post {{ with .Site.Params.doNotLoadAnimations }}.{{ else }}animated fadeInDown{{ end }}">
     <div class="post__content">
       <h1>{{ .Title }}</h1>
       {{ .Content }}
     </div>
   </div>
-  
-  {{ range .Pages.byWeight }}
+ 
+  {{ range .Pages.ByWeight }}
     <div class="post {{ with .Site.Params.doNotLoadAnimations }}.{{ else }}animated fadeInDown{{ end }}">
       {{ if .Params.image }}
         <div class="post__thumbnail-wrapper">
