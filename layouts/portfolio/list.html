@@ -6,7 +6,7 @@
     </div>
   </div>
   
-  {{ range .Pages }}
+  {{ range .Pages.byWeight }}
     <div class="post {{ with .Site.Params.doNotLoadAnimations }}.{{ else }}animated fadeInDown{{ end }}">
       {{ if .Params.image }}
         <div class="post__thumbnail-wrapper">

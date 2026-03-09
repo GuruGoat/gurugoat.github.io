@@ -1,5 +1,7 @@
 {{ define "main" }}
-  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+  {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+  {{ $sorted := sort $pages ".Params.weight" }}
+  {{ $paginator := .Paginate $sorted }}
   {{ range $paginator.Pages }}
     <div class="post {{ with .Site.Params.doNotLoadAnimations }}.{{ else }}animated fadeInDown{{ end }}">
       {{ if .Params.image }}
