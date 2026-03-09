@@ -2,8 +2,8 @@
 title = "Caleb Pearce"
 author = "Caleb Pearce"
 #copyright = "2020-2021"
-description = "Mechanical Engineer - Portfolio"
-profilePicture = "images/profile.jpg"
+description = "Mechanical Engineer"
+profilePicture = "https://filedn.eu/l5EUHcF0zrYfti8LCFKL3Fk/cpearce-cv/profile.jpg"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
@@ -44,7 +44,7 @@ reversepagetitle = true # When set to 'true', the Window Title will be reversed 
 contentratio = 0.75
 
 enableComments = false
-displayMode = "light"  # or "light" or "auto"
+displayMode = "dark"  # or "light" or "auto"
 
 [simpleAnalytics]
 # enable = true
