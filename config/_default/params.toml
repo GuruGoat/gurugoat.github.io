@@ -81,5 +81,10 @@ icon = "fa-solid fa-envelope"
 title = "e-mail"
 url = "mailto:cpearce@mailfence.com"
 
+[[socialIcons]]
+  icon = "fas fa-map-marker-alt"
+  title = "Location"
+  url = "https://www.google.com/maps/place/Greater+Geelong+VIC,+Australia"
+
 [mermaid]
 # enable = true

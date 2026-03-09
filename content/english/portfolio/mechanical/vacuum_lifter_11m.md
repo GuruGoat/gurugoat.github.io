@@ -5,25 +5,41 @@ weight: 110
 description: "Custom vacuum lifter for 11m aluminium plates"
 categories: ["mechanical"]
 tags: ["Lifting", "Pneumatics", "Industrial"]
-image: "https://filedn.eu/l5EUHcF0zrYfti8LCFKL3Fk/cpearce-cv/portfolio/IMG_20201029_113739028.jpg"
+image: "https://filedn.eu/l5EUHcF0zrYfti8LCFKL3Fk/cpearce-cv/portfolio/vacuum-lifter-extended1.jpg"
 ---
 
 ## Overview
 
 I designed and commissioned a vacuum lifter for aluminium plates up to 11m long.  The lifter was used for loading and unloading the router pictured here.
 
-![Vacuum Lifter beside Router](https://filedn.eu/l5EUHcF0zrYfti8LCFKL3Fk/cpearce-cv/portfolio/IMG_20201029_113357434.jpg)
+<figure>
+  <img src="https://filedn.eu/l5EUHcF0zrYfti8LCFKL3Fk/cpearce-cv/portfolio/vacuum-lifter-extended-2.jpg" alt="Vacuum Lifter beside Router" style="width: 100%;">
+  <figcaption>Vacuum Lifter beside Router</figcaption>
+</figure>
 
 ## Features
 
 Because the sheets varied in length from 6m to 11m, the lifter had bi-fold sections at each end.
 
-![Folding Section](https://filedn.eu/l5EUHcF0zrYfti8LCFKL3Fk/cpearce-cv/portfolio/IMG_20201029_113637683.jpg)
+<figure>
+  <img src="https://filedn.eu/l5EUHcF0zrYfti8LCFKL3Fk/cpearce-cv/portfolio/vacuum-lifter-folded.jpg" alt="Vacuum Lifter Folded" style="width: 100%;">
+  <figcaption>Vacuum Lifter folded for shortest plates</figcaption>
+</figure>
+
+<br>
+<br>
+
+<figure>
+  <img src="https://filedn.eu/l5EUHcF0zrYfti8LCFKL3Fk/cpearce-cv/portfolio/vacuum-lifter-end1.jpg" alt="Folding Section" style="width: 100%;">
+  <figcaption>Folding Section</figcaption>
+</figure>
 
 On the original plant, this introduced risk. If the outer cups are not in use but are left connected to the vacuum pump, you can lose vacuum on the whole system.
 I implemented valves built into the pivot so the vacuum automatically disconnects.
 
-![Vacuum Valves](https://filedn.eu/l5EUHcF0zrYfti8LCFKL3Fk/cpearce-cv/portfolio/IMG_20201029_113947246.jpg)
+<figure>
+  <img src="https://filedn.eu/l5EUHcF0zrYfti8LCFKL3Fk/cpearce-cv/portfolio/vacuum-lifter-end2.jpg" alt="Vacuum Valves" style="width: 100%;">
+  <figcaption>Vacuum Valves</figcaption>
 
 Other features included battery and vacuum reservoir for multiple levels of redundancy, and gas struts for easier folding/unfolding.
 
